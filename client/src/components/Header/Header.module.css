@@ -1,0 +1,36 @@
+
+header{
+    background-color: #2A2A2A;
+    padding: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 90px;
+    border-radius: 50%;
+}
+
+.navigation{
+    display: flex;
+    gap: 98px;
+    padding-right: 72px;
+}
+.nav-item i{
+    padding-right: 12px;
+    color: #00C1EC;
+}
+
+.link{
+    color: #E4E4E4;
+    font-size: 24px;
+}
+
+.active{
+    font-size: 28px;
+    color: white;
+    border-bottom: 2px solid  #00C1EC;
+    padding-bottom: 4px;
+}
