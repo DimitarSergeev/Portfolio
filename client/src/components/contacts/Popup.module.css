@@ -1,0 +1,21 @@
+
+.card-holder{
+    position: absolute;
+    background-color: rgb(242, 247, 244);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    gap: 12px;
+    border-radius: 12px;
+}
+
+.btn{
+    border: none;
+    background-color: #6fd649;
+    color: white;
+    padding: 6px 24px;
+    cursor: pointer;
+}
