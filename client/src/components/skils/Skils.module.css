@@ -1,0 +1,28 @@
+.card-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.title-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-size: 18px;
+    padding: 24px 0px;
+    color: white;
+}
+
+
+.title-holder i {
+    font-size: 36px;
+}
+
+
+.img-holder img {
+    width: 450px;
+    padding-left: 4px;
+}
+
