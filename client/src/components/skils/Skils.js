@@ -4,7 +4,6 @@ import htmlFront from './certificates/Certificate-HTML&CSS-Front.jpg'
 import htmlInfo from './certificates/Certificate-HTML&CSS-Info.jpg'
 import jsFundametals from './certificates/Certificate-JS-Fundamentals.jpg'
 import jsFundametalsInfo from './certificates/Certificate-JS-Fundamentals-info.jpg'
-import jsFundametalsInfo2 from './certificates/Certificate-JS-Fundamentals-info2.jpg'
 import reactJs from './certificates/Certificate-ReactJS.jpg'
 import reactJsInfo from './certificates/Certificate-ReactJS-info.jpg'
 import JSBackEnd from './certificates/Certificate-JS-Back-End.jpg'
@@ -23,8 +22,8 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
-import 'swiper/css/navigation';
-
+import 'swiper/css/pagination';
+// import 'swiper/css/scrollbar';
 
 export const Skils = () => {
  
@@ -78,7 +77,7 @@ export const Skils = () => {
                         <div className={styles['img-holder']}>
                             <img src={jsFundametals} alt="nqma" />
                             <img src={jsFundametalsInfo} alt="nqma" />
-                            <img src={jsFundametalsInfo2} alt="nqma" />
+                            {/* <img src={jsFundametalsInfo2} alt="nqma" /> */}
                         </div>
                     </article>
                 </SwiperSlide>

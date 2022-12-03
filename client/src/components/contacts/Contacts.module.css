@@ -116,4 +116,14 @@
     border-radius: 0 0.4rem 0.4rem 0;
 }
 
-
+@media screen AND (max-width: 930px) {
+    .contact-container{
+        width: 900px;
+        background-color: #444343;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 2,1fr;
+        border-radius: 0.4rem;
+        gap: 12px;
+    }
+}

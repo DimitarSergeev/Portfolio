@@ -24,5 +24,17 @@
 .img-holder img {
     width: 450px;
     padding-left: 4px;
+    padding-bottom: 12px;
 }
 
+@media screen AND (max-width: 1220px) {
+    .img-holder{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-holder img{
+        width: 80%;
+    }
+}

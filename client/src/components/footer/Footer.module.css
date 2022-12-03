@@ -1,0 +1,13 @@
+.links{
+    margin: 0;
+    padding: 15px;
+    background-color: #444343;
+    
+}
+
+.link i {
+    color: white;
+    font-size: 24px;
+    padding: 0px 12px;
+}
+
