@@ -37,6 +37,19 @@
 .info span{
     color: #00c4f0;
 }
+.btn{
+    border: none;
+    width: 40%;
+    background-color: #00c4f0;
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 12px;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #0589a7
+}
 
 @media screen AND (max-width: 1300px) {
     .hero{

@@ -1,5 +1,6 @@
 import styles from './Hero.module.css';
 
+import {Link} from 'react-router-dom'
 export const Hero = () => {
     return (
         <section className={styles.hero}>
@@ -10,6 +11,7 @@ export const Hero = () => {
                 <p className={styles.info}>
                     I have been programming for about a year and a half. I am interested in working with <span>React</span> and <span>Front-End</span> in general.
                 </p>
+                <Link to='/about' className={styles.btn}>Read More</Link>
             </div>
 
         </section>
