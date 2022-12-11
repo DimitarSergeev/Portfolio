@@ -1,22 +1,38 @@
 import styles from "./AboutMe.module.css";
 
+import imgMe from './IMG_20210616_220717-removebg-preview.png'
+import {Link} from 'react-router-dom'
+
 export const AboutMe = () => {
     return (
+        <>
         <article className={styles.container}>
             <div className={styles['left-img']}>
-                {/* <img src="/images/me.jpg" alt="nqma" /> */}
+                <img src={imgMe} alt="nqma" />
             </div>
             <div className={styles.content}>
-                <h1 className={styles.title}>About Me</h1>
+                <h2 className={styles.title}>About Me</h2>
                 <div className={styles['info-container']}>
+                    
                     <p className={styles.info}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Consectetur maxime at sapiente qui eaque? Nisi suscipit quia totam dolor! Tenetur earum rem quis provident recusandae nesciunt possimus illo fuga iusto.
+                        Hello, my name is Dimitar Sergeev from <span className={styles.country}>Stara Zagora, Bulgaria</span> and I am 23 years old.
+                        I am a beginner looking for a job as a <span className={styles.work}>Front-End developer.</span>
                     </p>
-
+                    <p className={styles.info}>
+                         I have taken several courses that you can see <Link to='/skils' className={styles.link}>here</Link> , I am currently studying cyber security and improving my English.
+                         Until now, I have experience as customer support and online sales.
+                    </p>
                 </div>
             </div>
         </article>
+         <div className={styles['more-info']}>
+                <h1 className={styles['link-title']}>Additional Links</h1>
+                <div className={styles.buttons}>
+                     <Link to='../../../public/CV-Димитър.doc' target='_blank' download className={styles['btn']}>Download CV</Link>
+                     <Link to='/contacts' className={styles['btn']}>Contacts</Link>
+                </div>
+         </div>
+        </>
     );
 };
 

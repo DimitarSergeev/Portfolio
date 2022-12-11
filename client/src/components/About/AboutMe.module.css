@@ -1,1 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.left-img{
+    width: 60%;
+}
+.left-img img{
+    border-radius: 25px;
+}
+
+.content .title{
+    color: #fcc436;
+    font-size: 28px;
+}
+
+.info-container{
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.info{
+    color: #00c4f0;
+    font-size: 24px;
+}
+.country{
+    color: rgb(24, 197, 24);
+}
+.work{
+    color: #fcc436;
+}
+.link{
+    color: rgb(240, 47, 47);
+}
+
+.link-title{
+    color: #fcc436;
+    padding: 24px 0px;
+}
+
+.buttons{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:max-content;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.btn{
+    font-size: 32px;
+    border: none;
+    border-radius: 24px;
+    background-color: #00c4f0;
+    padding: 12px 0px;
+}
+ a{
+    color: white;
+}
+a:hover{
+    background-color: #0589a7;
+}
+
+@media screen AND (max-width: 1350px) {
+    .container{
+        width: 100%;
+    }
+    .info-container{
+    width: 90%;
+    }
+}
+@media screen AND (max-width: 1150px){
+     .container{
+        flex-direction: column;
+     }
+     .left-img{
+        width: 50%;
+        padding-bottom: 25px;
+     }
+    
+     .more-info{
+        padding-bottom: 24px;
+     }
+}
+@media screen AND (max-width: 612px) {
+    .left-img{
+        width: 100%;
+     }
+
+    .buttons{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
