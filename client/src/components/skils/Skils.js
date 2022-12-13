@@ -54,8 +54,8 @@ export const Skils = () => {
 
                 <SwiperSlide>
                     <div className={styles['title-holder']}>
-                        <i class="fa-brands fa-html5" style={{ color: '#e54d25' }}></i>
-                        <i class="fa-brands fa-css3-alt" style={{ color: '#27a7de' }}></i>
+                        <i className="fa-brands fa-html5" style={{ color: '#e54d25' }}></i>
+                        <i className="fa-brands fa-css3-alt" style={{ color: '#27a7de' }}></i>
                         <h1 className={styles.title}>HTML&CSS</h1>
                     </div>
                     <article className={styles.card}>
@@ -70,7 +70,7 @@ export const Skils = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={styles['title-holder']}>
-                        <i class="fa-brands fa-js" style={{ color: '#feda3d' }}></i>
+                        <i className="fa-brands fa-js" style={{ color: '#feda3d' }}></i>
                         <h1 className={styles.title}>Fundamentals</h1>
                     </div>
                     <article className={styles.card}>
@@ -83,7 +83,7 @@ export const Skils = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={styles['title-holder']}>
-                        <i class="fa-brands fa-js" style={{ color: '#feda3d' }}></i>
+                        <i className="fa-brands fa-js" style={{ color: '#feda3d' }}></i>
                         <h1 className={styles.title}>JS Advanced</h1>
                     </div>
                     <article className={styles.card}>
@@ -95,7 +95,7 @@ export const Skils = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={styles['title-holder']}>
-                        <i class="fa-brands fa-js" style={{ color: '#feda3d' }}></i>
+                        <i className="fa-brands fa-js" style={{ color: '#feda3d' }}></i>
                         <h1 className={styles.title}>JS Applications</h1>
                     </div>
                     <article className={styles.card}>
@@ -107,7 +107,7 @@ export const Skils = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={styles['title-holder']}>
-                        <i class="fa-brands fa-react" style={{ color: '#31cddf' }}></i>
+                        <i className="fa-brands fa-react" style={{ color: '#31cddf' }}></i>
                         <h1 className={styles.title}>React JS</h1>
                     </div>
                     <article className={styles.card}>
@@ -119,7 +119,7 @@ export const Skils = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={styles['title-holder']}>
-                        <i class="fa-brands fa-node" style={{ color: '#8cc94a' }}></i>
+                        <i className="fa-brands fa-node" style={{ color: '#8cc94a' }}></i>
                         <h1 className={styles.title}>JS Back-End</h1>
                     </div>
                     <article className={styles.card}>
@@ -131,7 +131,7 @@ export const Skils = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={styles['title-holder']}>
-                        <i class="fa-solid fa-user-shield" style={{ color: '#179bf1' }}></i>
+                        <i className="fa-solid fa-user-shield" style={{ color: '#179bf1' }}></i>
                         <h1 className={styles.title}>Introduction to Cyber Security</h1>
                     </div>
                     <article className={styles.card}>

@@ -29,11 +29,15 @@ nav img{
 }
 
 .active{
-    font-size: 28px;
+    font-size: 30px;
     color: white;
-    border-bottom: 2px solid  #00C1EC;
     padding-bottom: 4px;
 }
+.nav-item a{
+    outline: none;
+
+}
+
 
 @media screen AND (max-width: 1200px) {
     nav{
@@ -45,7 +49,6 @@ nav img{
     }
    
     .navigation{
-        /* flex-direction: column; */
         justify-content: space-around;
         gap: 48px;
     }
@@ -63,10 +66,12 @@ nav img{
     }
     
     .active{
-        font-size: 32px;
+        font-size: 34px;
     }
     .navigation{
         flex-direction: column;
+        justify-content: center;
         gap: 12px;
+        padding-left: 72px;
     }
 }

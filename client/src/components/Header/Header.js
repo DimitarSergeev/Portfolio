@@ -18,7 +18,6 @@ export const Header = () =>{
                 </li>
                 <li className={styles['nav-item']}>
                     <NavLink to='/skils' className={({ isActive }) => (isActive ? styles.active : styles.link)}>
-                    {/* <i class="fa-brands fa-connectdevelop"></i> */}
                     <i className="fa-solid fa-file-code"></i>
                     Skills
                     </NavLink>
