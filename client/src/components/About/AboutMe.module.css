@@ -61,10 +61,10 @@
     background-color: #00c4f0;
     padding: 12px 0px;
 }
- a{
+.more-info a{
     color: white;
 }
-a:hover{
+.more-info a:hover{
     background-color: #0589a7;
 }
 

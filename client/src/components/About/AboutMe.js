@@ -1,6 +1,7 @@
 import styles from "./AboutMe.module.css";
 
 import imgMe from './IMG_20210616_220717-removebg-preview.png'
+import CV from './DimitarResume.pdf'
 import {Link} from 'react-router-dom'
 
 export const AboutMe = () => {
@@ -28,7 +29,7 @@ export const AboutMe = () => {
          <div className={styles['more-info']}>
                 <h1 className={styles['link-title']}>Additional Links</h1>
                 <div className={styles.buttons}>
-                     <Link to='../../../public/CV-Димитър.doc' target='_blank' download className={styles['btn']}>Download CV</Link>
+                     <a href={CV}  download className={styles['btn']}>Download CV</a>
                      <Link to='/contacts' className={styles['btn']}>Contacts</Link>
                 </div>
          </div>
